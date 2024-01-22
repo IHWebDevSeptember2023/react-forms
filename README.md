@@ -1,8 +1,7 @@
-# React + Vite
+# React forms (Controlled components)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+En esta clase hemos aprendido a crear formularios en React. Hemos visto que los formularios en React son componentes controlados, es decir, que el estado de los datos del formulario lo controla React y no el navegador. Esto nos permite tener un control total sobre los datos que se muestran en un formulario y cómo se actualizan (ejemplo de amazon controlando los eventos).
 
-Currently, two official plugins are available:
+Cada elemento del form tiene un evento asociado que se lanza cuando cambia su valor `onChange`. Este evento se puede capturar y modificar el estado del componente.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+El submit del formulario también se puede capturar y manejar con React. De esta forma podemos enviar los datos del formulario a un servidor o realizar las acciones que necesitemos.
